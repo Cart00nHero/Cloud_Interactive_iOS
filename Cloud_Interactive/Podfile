@@ -1,0 +1,23 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'Cloud_Interactive' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Cloud_Interactive
+  pod 'Moya'
+  pod 'SolarNetwork'
+  pod 'ReSwift'
+  pod 'Kingfisher'
+
+  target 'Cloud_InteractiveTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'Cloud_InteractiveUITests' do
+    # Pods for testing
+  end
+
+end
